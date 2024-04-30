@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+
+.home {
+  align-items: center;
+  text-align: center;
+  font-size: 70px;
+  background-color: #000033;
+  color: white;
+height: 200vh;
+  font-family: "Space Grotesk", sans-serif;
+}
+.design {
+  background-image: linear-gradient(to right, #ff3399, #ff9966);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+}
+.image {
+  height: 10vh;
+  margin-left: 150px;
+}
+.pen {
+  height: 25vh;
+  margin-left: 5%;
+  margin-right: 11%;
+  margin-top: 40px;
+}
+.home-para {
+  color: white;
+  font-size: 20px;
+  font-family: "Space Grotesk", sans-serif;
+  padding-bottom: 50px;
+  
+}
+
+.row {
+  margin-top: 10px;
+}
+.visit {
+  color: white;
+  background-image: linear-gradient(to right, #ff9966, #ff3399);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 15px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.visit:hover {
+  background-color: #00004d;
+  background-image: none;
+  color: white;
+  border: 1px solid white;
+}
+.contact {
+  color: black;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: auto;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 15px;
+  font-family: "Space Grotesk", sans-serif;
+  box-shadow: 0px 2px 2px 0#ff3399;
+  font-weight: bold;
+}
+.contact:hover {
+  color: white;
+  background-image: linear-gradient(to right, #ff9966, #ff3399);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.paint {
+  height: 20vh;
+  position: absolute;
+  margin-left: 15%;
+  margin-bottom: 50px !important;
+}
+.power{
+    height: 20vh;
+  position: absolute;
+  margin-left: 31%;
+  margin-top: 10%;
+}
+.explore{
+    padding-top: 10%;
+ 
+    font-family: "Space Grotesk", sans-serif;
+}
+.card-row {
+    display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-left: 10%;
+    margin-right: 10%;
+  
+}
+
+.card {
+    text-align: left;
+    border: 1px solid #b8a3e0;
+    border-radius: 5px;
+    align-items: center;
+    background-color: #382659;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  width: 100%;
+}
+
+.card img {
+   
+    height: 20vh;
+   margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card-name {
+  
+    font-size: 16px;
+    margin-top: 10px;
+}
+.card-name:hover{
+    color:#ff9966 ;
+}
+h7{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+}

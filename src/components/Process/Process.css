@@ -1,0 +1,93 @@
+.process{
+    background-color: white;
+    height: 100vh;
+  
+    
+    
+}
+.row1{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.like{
+    height: 15vh;
+}
+.process-headings{
+    font-size: 40px;
+    font-family: "Space Grotesk", sans-serif;
+}
+.text-center{
+    text-align: center;
+    font-size: 15px;
+    color: lightgrey;
+    padding: 5px;
+}
+.circle{
+    color: #ff9966;
+    font-size: 25px;
+}
+.process-card-container{
+    display: flex;
+  text-align: center;
+  background-color: white;
+  justify-content: center;
+}
+.process-card{
+    background-color: white;
+    border: 1px solid gray;
+    margin: 30px;
+    max-width: 20.333333%;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.process-icon{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.process-card-name{
+    text-align: left;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+.process-des{
+    font-size: 18px;
+    font-family: "Space Grotesk", sans-serif;
+    text-align: left;
+    
+}
+.icon{
+    height: 8vh;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.contact1 {
+    color: black;
+    background-color: #fff;
+    border: 1px solid #ff9966;
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 45%;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    box-shadow: 0px 2px 2px 0px #ff9966;
+    font-weight: bold;
+ 
+  }
+  .contact1:hover {
+    color: white;
+    background-image: linear-gradient(to right, #ff9966, #ff3399);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+  }

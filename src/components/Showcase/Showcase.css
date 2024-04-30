@@ -1,0 +1,430 @@
+
+
+.showcase-heading{
+    color: white;
+
+    padding: 50px;
+    font-size: 40px;
+    font-family: "Space Grotesk", sans-serif;
+}
+.showcase{
+    height: 100vh;
+}
+.showcase-row{
+    display: flex;
+    flex-direction: row;
+}
+.showcase-para{
+    font-family: "Space Grotesk", sans-serif;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+.power1{
+    height: 20vh;
+    margin-left: 40px;
+}
+
+
+.process-card-container1{
+    display: flex;
+  text-align: center;
+  background-color: #000033;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.process-card1{
+    background-color: #382659;
+    border: 1px solid #b8a3e0;
+    margin: 30px;
+    max-width: 20.333333%;
+    padding-left: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.process-icon1{
+    display: flex;
+    flex-direction: row;
+    background-color: #382659;
+    border-top-right-radius: 20px;
+   
+}
+.process-card-name1{
+    text-align: left;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+}
+.h6{
+    font-size: 18px;
+    font-family: "Space Grotesk", sans-serif;
+    text-align: left;
+    color: white;
+}
+.icon1{
+    height: 8vh;
+    margin-top: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+   
+}
+.campus{
+    background-color: #000033;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  
+}
+.campus-heading{
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 26px;
+    text-align: left;
+    padding: 20px;
+    font-weight: lighter;
+}
+.campus-head{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Space Grotesk", sans-serif;
+
+    text-align: left;
+}
+.campus-des{
+    font-size: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    color: white;
+    text-align: left;
+    padding: 18px;
+    
+}
+
+.contact2 {
+    color: white;
+    background-color: #6d5175;
+    border: 1px solid #ff9966;
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+ margin-left: -70%;
+  }
+  .design1 {
+    background-image: linear-gradient(to right, #ff3399, #ff9966);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .campus-aca{
+    background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+  }
+  .aca-head{
+    font-size: 40px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  .aca-para{
+    font-family: "Space Grotesk", sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    
+    font-size: 15px;
+    color: rgb(41, 39, 39);
+  }
+  .aca-col{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+  }
+  .aca-but{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: white;
+    margin-top: 50px;
+  }
+  .demo{
+    color: white;
+    background-image: linear-gradient(to right, #ff9966, #ff3399);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    margin-bottom: 20px;
+  }
+  .demo:hover{
+    color: white;
+    background-color: #000033;
+    background-image: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+   border: 1px solid white;
+  }
+  .touch{
+    color: black;
+    background-color: #fff;
+    border: 1px solid #ff9966;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: auto;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    box-shadow: 1px 1px 0px #ff9966;
+    font-weight: bold;
+  }
+  .touch:hover{
+    color: white;
+    background-image: linear-gradient(to right, #ff9966, #ff3399);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: auto;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 15px;
+    font-family: "Space Grotesk", sans-serif;
+  }
+
+
+
+  /*location*/
+  .location{
+    background-color: rgba(241, 237, 237, 0.397);
+  }
+  .location-head{
+   text-align: center;
+   font-family: "Space Grotesk", sans-serif;
+   font-size: 40px;
+   color: #2a2a2cf2;
+   padding-top: 40px;
+  }
+  .location-para{
+    text-align: center;
+   font-family: "Space Grotesk", sans-serif;
+   font-size: 20px;
+   color: #2a2a2cc1;
+  }
+  .cardrow {
+    display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-left: 10%;
+  background-color: white;
+    margin-right: 10%;
+  
+}
+
+.card-loc {
+    text-align: left;
+   border: 1px solid #72707563;
+   border-top: none;
+    border-radius: 5px;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  width: 100%;
+}
+
+.card-loc img {
+   border: none;
+    width: 100%;
+   margin-bottom: 20px;
+   
+}
+
+.card-loc-name {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+  
+}
+
+.card-loc-head{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: #2a2a2ce8;
+    font-family: "Space Grotesk", sans-serif;
+}
+.scedule{
+    color: white;
+    background-image: linear-gradient(to right, #ff9966, #ff3399);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: auto;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    margin-bottom: 20px;
+}
+.scedule:hover{
+    color: white;
+    background-color: #000033;
+    background-image: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: auto;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+   border: 1px solid white;
+}
+
+
+.Footer-container {
+  padding: 2rem 0;
+  margin-top: 15rem;
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+
+.ft-1 p {
+  padding: 0rem 5rem 0.8rem 0;
+  font-weight: 500;
+  
+}
+
+.footer-icons i {
+  padding: 0.4rem 0.5rem;
+  background: #e1e1e1;
+  color: #f60838;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+}
+
+.footer-icons i:hover {
+  background: #f60838;
+  background-image: linear-gradient(to right, #ff9966,#ff3399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+
+.ft-2 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ft-2 ul li {
+  padding: 0.35rem 0;
+  font-weight: 500;
+}
+
+.ft-2 ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.06rem;
+}
+
+.ft-3 p {
+  font-weight: 500;
+  padding: 0.1rem 0;
+  font-size: 1.06rem;
+}
+
+.ft-3 i {
+  padding-right: 0.5rem;
+}
+
+.Last-footer {
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.Last-footer p {
+  margin-bottom: 0;
+  font-size: 1rem;
+
+}
+.horizontal-line {
+
+  height: 1px;
+  background-color: #6d5175;
+  margin: 10px 0; 
+}
+
+.horizontal-line::before {
+  
+  height: 0.5px; 
+  background-color: #6d5175;
+}
+
+
+.rowFoot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.desi{
+  background-image: linear-gradient(to right, #ff9966,#ff3399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Space Grotesk", sans-serif;
+}
+.nav-item:hover{
+  background-image: linear-gradient(to right, #ff9966,#ff3399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ft-3 p:hover{
+  background-image: linear-gradient(to right, #ff9966,#ff3399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon-foo{
+font-size: 30px;
+margin-right: 15px;
+
+cursor: pointer;
+color: #c84197ee;
+}
+.logo2{
+  height: 10vh;
+}
+
